@@ -1,0 +1,58 @@
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/puma-2.15.3/ext/puma_http11
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160103-49831-13192q.rb extconf.rb
+checking for BIO_read() in -lcrypto... yes
+checking for SSL_CTX_new() in -lssl... yes
+checking for openssl/bio.h... no
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/extensions/universal-darwin-15/2.0.0/puma-2.15.3/mkmf.log
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/puma-2.15.3/ext/puma_http11
+make "DESTDIR=" clean
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/puma-2.15.3/ext/puma_http11
+make "DESTDIR="
+compiling http11_parser.c
+compiling io_buffer.c
+io_buffer.c:119:21: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  return rb_str_new(b->top, b->cur - b->top);
+                    ^~~~~~
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0/ruby/intern.h:674:29: note: passing argument to parameter here
+VALUE rb_str_new(const char*, long);
+                            ^
+1 warning generated.
+io_buffer.c:119:21: warning: passing 'uint8_t *' (aka 'unsigned char *') to parameter of type 'const char *' converts between pointers to integer types with different sign [-Wpointer-sign]
+  return rb_str_new(b->top, b->cur - b->top);
+                    ^~~~~~
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0/ruby/intern.h:674:29: note: passing argument to parameter here
+VALUE rb_str_new(const char*, long);
+                            ^
+1 warning generated.
+compiling mini_ssl.c
+In file included from mini_ssl.c:4:
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0/ruby/backward/rubyio.h:2:2: warning: use "ruby/io.h" instead of "rubyio.h" [-W#warnings]
+#warning use "ruby/io.h" instead of "rubyio.h"
+ ^
+1 warning generated.
+In file included from mini_ssl.c:4:
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/include/ruby-2.0.0/ruby/backward/rubyio.h:2:2: warning: use "ruby/io.h" instead of "rubyio.h" [-W#warnings]
+#warning use "ruby/io.h" instead of "rubyio.h"
+ ^
+1 warning generated.
+compiling puma_http11.c
+puma_http11.c:405:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+puma_http11.c:405:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+linking shared-object puma/puma_http11.bundle
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/puma-2.15.3/ext/puma_http11
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 puma_http11.bundle ./.gem.20160103-49831-1xvzto5/puma
+installing default puma_http11 libraries
