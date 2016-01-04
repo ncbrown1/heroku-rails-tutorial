@@ -1,0 +1,16 @@
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+/System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/bin/ruby -r ./siteconf20160103-98029-106qmqv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/ncbrown/school/cmptg140/heroku_rails_tutorial/vendor/bin/ruby/2.0.0/gems/debug_inspector-0.0.2/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20160103-98029-1iroiqk
+installing default debug_inspector libraries
