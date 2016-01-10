@@ -1,4 +1,6 @@
-== Heroku Rails Tutorial [![Build Status](https://travis-ci.org/ncbrown1/heroku-rails-tutorial.svg?branch=master)](https://travis-ci.org/ncbrown1/heroku-rails-tutorial)
+Heroku Rails Tutorial [![Build Status](https://travis-ci.org/ncbrown1/heroku-rails-tutorial.svg?branch=master)](https://travis-ci.org/ncbrown1/heroku-rails-tutorial)
+==================
+
 Rails app to be deployed on Heroku for CMPTGCS140 in Winter 2016 at UCSB. 
 
 <!--
