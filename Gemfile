@@ -45,6 +45,10 @@ group :development do
   gem 'spring'
 end
 
+group :test, :development do
+  gem 'rspec-rails', '~> 3.0.0'
+end
+
 gem 'rails_12factor', group: :production
 # ruby "2.2.0"
 gem 'puma'
