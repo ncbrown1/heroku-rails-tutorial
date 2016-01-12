@@ -54,4 +54,5 @@ gem 'rails_12factor', group: :production
 gem 'puma'
 
 gem 'omniauth-github'
+gem 'omniauth-google-oauth2'
 
